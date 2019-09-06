@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/rails/sprockets.git
+  revision: 1bcee8ebc03489eb7e42ee5c258a712443a6df3c
+  specs:
+    sprockets (4.0.0.beta10)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -158,9 +166,6 @@ GEM
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
-    sprockets (4.0.0.beta10)
-      concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
     sprockets-rails (3.2.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
@@ -204,7 +209,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
-  sprockets (~> 4.0.0.beta10)
+  sprockets!
   sqlite3
   turbolinks (~> 5)
   tzinfo-data
